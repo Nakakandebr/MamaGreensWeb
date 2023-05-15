@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+     
+}
+
+header {
+   
+      padding: 25px;  
+}
+
+#logo{
+    margin-left:-90%;
+    width: 5vw;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+
+nav li {
+    float: left;
+    margin-left: 13%;
+    
+}
+
+nav li a {
+    display: block;
+   color:#001701;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav li a:hover {
+    background-color: lightgreen;
+    transition: all 0.3s ease-in-out;
+    color: #66a80f;
+    border-radius: 20px;
+
+}
+
+nav li a :hover::after{
+    transform: scale(0);
+} 
+
+ #quality{
+    color: #023603;
+    font-weight: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    margin-top: 10%;
+    margin-left: 2%;
+    animation: zoomIn 2.5s ease forwards;
+    animation-delay: 1s;
+}
+@keyframes zoomIn {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+#apple{
+    width: 33vw;
+    height: 70vh;
+    margin-left: 60%;
+    margin-top: -30%;
+    border-radius: 35px;
+
+}
+#here{
+ font-size: 18px;
+ letter-spacing: 0.2px;
+ color: green;
+}
+span{
+    color: #d9480f;
+}
