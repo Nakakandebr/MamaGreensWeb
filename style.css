@@ -85,3 +85,224 @@ nav li a :hover::after{
 span{
     color: #d9480f;
 }
+/* (((())))))))**** */
+
+
+@keyframes bounce{
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+}  
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #F2F2F2; */
+}
+header {
+     background-color: white;
+      padding: 25px;
+}
+#logo{
+    margin-left:-85%;
+    width: 4vw;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #66A80F; */
+}
+nav li {
+    float: left;
+    margin-left: 13%;
+}
+nav li a {
+    display: block;
+   color:#001701;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav li a:hover {
+    background-color: lightgreen;
+    transition: all 0.3s ease-in-out;
+    color: #66A80F;
+   
+}
+
+section{
+    /* background-color: #1ea2eb; */
+  /* background-color: #ebbbdc; */
+  /* background-color: #647295; */
+  /* background-color: #c0A9BD; */
+  color: rgb(3, 3, 3);
+    height: 100vh;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+  }
+  #cover1{
+    width: 100%;
+    border-radius: 20px 20px;
+    margin: 5% 5%;
+  }
+  #cover2{
+    width: 100%;
+    margin: 35% 0%;
+    border-radius: 5% 35%;
+
+
+  }
+
+  #link{
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  #link1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    /* position: relative;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-iteration-count:inherit; */
+    /* animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); */ 
+  
+  }
+  #link2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+  }
+#ourStory{
+    /* border: solid rgb(175, 62, 62) 4px;
+    background-color: green;
+    width: 50%; */
+    font-size: larger;
+    
+}
+#whatWeDo{
+    text-align: center;
+}
+#mission{
+    display: flex;
+    justify-content: space-between;
+}
+#mission1{
+     /* border: solid rgb(184, 54, 54) 4px;
+     border-width: 5%;
+    background-color: green;
+    width: 50%; */
+
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: larger;
+        /* font-weight: bolder; */
+        width: 50%;
+        color:green;
+        border: solid 5px whitesmoke;
+        border-radius: 30px;
+        background-color: whitesmoke;
+        opacity: 0.5;
+      
+        position: relative;
+        animation-name: bounce;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        /* animation-iteration-count:inherit; */
+        animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+      
+       
+}
+
+  #mmGreens1{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+    background-size: 100%;
+
+  }
+  #words{
+    margin: 10% 10% 0% 5%;
+  }
+  #mmGreens p {
+    font-size: larger;
+  }
+  #history{
+    /* display: flex;
+    justify-content: space-between; */
+  }
+  #ourHistory{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer{
+    margin-left: 1%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+#f1{
+    height: 45vh;
+    width: 23vw;
+    border-radius: 100%;
+    margin-left: 7%;
+    }
+    #f2{
+        height: 45vh;
+        width: 23vw;
+        border-radius: 100%;
+        margin-left: 19%;
+    }
+    #f3{
+        height: 45vh;
+    width: 23vw;
+    border-radius: 100%;
+    margin-left: 20%;
+    margin-top: 5%;
+    }
+    #firstimage{
+        height: 65vh;
+    width: 32vw;
+    border-radius: 100%;
+    margin-left: 34%;
+    }
+    #our{
+        text-align: center;
+        font-size: 40px;
+    }
+    #flo{
+        margin-left: 42%;
+    }
+    .personalities{
+        display: flex;
+        margin-top: -7%;
+    }
+    #ma{
+        margin-left: 9%;
+        margin-top: -22%;
+    }
+    #br{
+        margin-left: 17%;
+        margin-top: -22%;
+    }
+    #re{
+        margin-left: 10%;
+        margin-top: -22%;
+    }
+    #flor{
+        margin-left: -70%;
+        margin-top: 7%;
+    }
+    #hen{
+        margin-left: 28%;
+        margin-top: 7%;
+    }
+    #all{
+        font-size: 25px;
+    }
